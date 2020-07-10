@@ -6,17 +6,20 @@
 /*   By: lomcmast <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/08 15:01:37 by lomcmast          #+#    #+#             */
-/*   Updated: 2020/07/09 14:44:08 by lomcmast         ###   ########.fr       */
+/*   Updated: 2020/07/10 08:41:28 by lomcmast         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-void ft_putchar(char c);
-void ft_groups(char a, char b, char c);
+void	ft_putchar(char c);
 
-void ft_print_comb(void)
+void	ft_groups(char a, char b, char c);
+
+void	ft_print_comb(void)
 {
-	char a;
-	char b;
-	char c;
+	char	a;
+
+	char	b;
+
+	char	c;
 	
 	a = '0';
 	b = '0';
