@@ -6,12 +6,12 @@
 /*   By: lomcmast <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/08 14:24:52 by lomcmast          #+#    #+#             */
-/*   Updated: 2020/07/09 14:43:35 by lomcmast         ###   ########.fr       */
+/*   Updated: 2020/07/10 08:36:12 by lomcmast         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-void ft_putchar(char c);
+void	ft_putchar(char c);
 
-void ft_is_negative(int n)
+void	ft_is_negative(int n)
 {
 	if(n < 0)
 	{
@@ -22,5 +22,3 @@ void ft_is_negative(int n)
 		ft_putchar('P');
 	}
 }
-
-
